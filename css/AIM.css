@@ -1330,12 +1330,12 @@ img.dots-t {
     height: 100px;
     align-items: center;
 }
-.plans .info::after {
+.plans .box:nth-child(2) .info::after {
     content: '';
     position: absolute;
     border: 23px solid transparent;
     border-bottom-color: #fff;
-    right: 18px;
+    right: 17px;
     top: 68px;
 }
 .plans .info h3 {
@@ -1422,6 +1422,7 @@ img.dots-t {
     gap: 10px;
     font-size: 1.5em;
     font-weight: 500;
+    background-color: var(--fourth-color);
     transition: var(--main-transition);
 }
 .videos .holder .list ul li:hover {
