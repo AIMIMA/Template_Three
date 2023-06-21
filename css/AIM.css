@@ -1342,7 +1342,7 @@ img.dots-t {
     transition: var(--main-transition);
 }
 .plans .box:nth-child(2):hover .info::after {
-    background-color: #f9f9f9;
+    border-color: #f9f9f9;
 }
 .plans .info h3 {
     font-size: 1.2em;
