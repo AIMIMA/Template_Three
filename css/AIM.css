@@ -1078,6 +1078,8 @@ img.dots-t {
 }
 .works img {
     width: clamp(260px, 45vw, 500px);
+    position: relative;
+    z-index: 2;
 }
 .cards {
     display: flex;
