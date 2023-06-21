@@ -1339,6 +1339,10 @@ img.dots-t {
     border-bottom-color: #fff;
     right: 17px;
     top: 68px;
+    transition: var(--main-transition);
+}
+.plans .box:nth-child(2):hover .info::after {
+    background-color: #f9f9f9;
 }
 .plans .info h3 {
     font-size: 1.2em;
